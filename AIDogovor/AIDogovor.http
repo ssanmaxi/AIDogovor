@@ -1,0 +1,6 @@
+@AIDogovor_HostAddress = http://localhost:5029
+
+GET {{AIDogovor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
