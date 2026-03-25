@@ -1,0 +1,21 @@
+services:
+ postgres:
+    image: "postgres:latest"
+    
+    
+    ports:
+        - "5432:5432"
+        
+        
+    environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=123456
+        - POSTGRES_DB=NotificationsForDogovor
+
+ rabbitmq:
+    image: "rabbitmq:3-management"
+    
+    
+    ports:
+        - "5672:5672"
+        - "15672:15672"
