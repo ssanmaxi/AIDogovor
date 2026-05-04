@@ -9,19 +9,27 @@ A notification microservice built to async processes events from the main servic
 ## Technical stack
 
 Backend: C#, .NET 8, ASP.NET Core
+
 Db: PostgreSQL, EF Core
+
 Messaging: RabbitMQ
+
 Auth: JWT
+
 Logging: Serilog
+
 Architecture: Domain-Driven Design (DDD)
+
 Testing: xUnit, Moq
 
 ## Features
+
 - Async notification processing via RabbitMQ consumer
 - Cron task: checking expiring messages
 - Structured logging with Serilog
 
 ## Project Structure
+
 AIDogovor/
 ├── Domain/              # Entities, Value Objects, Domain Events
 ├── Application/         # Use cases, DTOs, Interfaces
@@ -30,6 +38,7 @@ AIDogovor/
 └── AIDogovor.Tests/     # Unit tests (xUnit + Moq)
 
 ## Getting started
+
 Prerequisites
 .NET 8 SDK
 Docker & Docker Compose
