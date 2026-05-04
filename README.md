@@ -30,12 +30,14 @@ Testing: xUnit, Moq
 
 ## Project Structure
 
+```
 AIDogovor/
 ├── Domain/              # Entities, Value Objects, Domain Events
 ├── Application/         # Use cases, DTOs, Interfaces
 ├── Infrastructure/      # EF Core, RabbitMQ consumer, External services
 ├── Presentation/        # Controllers
 └── AIDogovor.Tests/     # Unit tests (xUnit + Moq)
+```
 
 ## Getting started
 
