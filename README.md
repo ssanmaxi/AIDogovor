@@ -45,13 +45,20 @@ Docker & Docker Compose
 
 Setting up:
 1) Clone the repo
+   
    git clone https://github.com/ssanmaxi/AIDogovor.git
+   
    cd AIDogovor
-2) Configure environment variables:
+3) Configure environment variables:
+   
    cp .env.example .env
-3) Start dependencies (PostgreSQL + RabbitMQ)
+   
+5) Start dependencies (PostgreSQL + RabbitMQ)
+   
    docker-compose up -d
-4) Run the service:
+   
+7) Run the service:
+   
    dotnet run --project AIDogovor
 
 
